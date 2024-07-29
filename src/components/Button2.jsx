@@ -4,7 +4,7 @@ const Button2 = ({ props, funcs }) => {
   return (
     <button
       type="button"
-      className={`flex justify-center items-center md:w-[50px] w-[40px] md:h-[50px] h-[40px] rounded-full
+      className={`flex justify-center items-center md:w-[50px] w-[30px] md:h-[50px] h-[30px] rounded-full
       } ${!props.active && 'md:hover:bg-gray-700'}`}
       style={{
         backgroundColor: props.active
@@ -16,7 +16,7 @@ const Button2 = ({ props, funcs }) => {
       }}
     >
       <img
-        className="md:w-[35px] w-[30px]"
+        className="md:w-[35px] w-[25px]"
         draggable={false}
         src={props.img}
         alt="icon"

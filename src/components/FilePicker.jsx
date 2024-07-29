@@ -72,6 +72,12 @@ const FilePicker = ({ props }) => {
             handleClick,
           }}
         />
+        <button 
+        onClick={props.handleTogglePivotControls} 
+      >
+        {props.showPivotControls ? 'Hide Pivot Controls' : 'Show Pivot Controls'}
+      </button>
+        
       </div>
     </section>
   )
